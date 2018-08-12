@@ -1,0 +1,54 @@
+<html>
+<head><script src="stuff/js/jquery.js"></script>
+	<style type="text/css">
+		#scrollbutton{
+			bottom: 50px;
+			right:50px;
+			position: fixed;
+		}
+		p{
+			font-size: 2em;
+		}
+	</style>
+	<body>
+		<img src="stuff/images/scroll.png" id="scrollbutton">
+		<p>Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.
+Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.Education is both the means as well as the end to a better life; means, because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behavior to understanding one's rights, and in the process evolve as a better citizen.
+
+Smile Foundation’s educational initiatives include Pre-school [3-6 yrs], Non Formal Education [6-14 yrs non-school going], Remedial Education [6-14 yrs school going] and Bridge Course [14-18 yrs drop-outs]. It works for education for underprivileged children who are under difficult circumstances, such as child labour, children of poorest of the parents, children inflicted and affected with HIV/AIDS, street and runaway children, children with rare disabilities, disaster struck children and slum children. Special emphasis is given on girl education and women education, so that they and their families get empowered.</p>
+	
+
+
+<script type="text/javascript">
+		$(document).ready(function(){
+			$("#scrollbutton").hide();
+			$(window).scroll(function(){
+				console.log("ST "+$("body").scrollTop());
+				if($("body").scrollTop()>20){
+					$("#scrollbutton").fadeIn(1000);
+				}
+				else{
+					$("#scrollbutton").fadeOut(1000);
+				}
+			});
+			$("#scrollbutton").click(function(){
+				$("body").animate({scrollTop:0},2000);
+			});
+		});
+	</script>
+	</body>
+	</html>
