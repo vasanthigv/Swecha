@@ -1,0 +1,269 @@
+.feature-img{
+	/*width:200px;
+	height: 200px;*/
+	width:100%;
+	margin: 20px auto;
+	overflow: hidden;
+	position: relative;
+}
+.feature-text{
+	width:100%;
+	padding: 10px;
+	color: white;
+	background-color: black;
+	bottom:0px;
+	position: absolute;
+	opacity: 0;
+	transition: all 2s;
+
+}
+.feature-img:hover .feature-text{
+	opacity:0.7;
+}
+.container-fluid{
+	padding:0px;
+}
+h2{
+	color: #017A8F;
+	margin:10px;
+
+}
+h1{
+
+	color: #017A8F;
+	margin:10px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+
+/*h1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+h1:before, h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: red;
+}
+h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+.color {
+    background-color: #ccc;
+}*/
+
+
+p{
+	text-align: justify;
+}
+
+
+#txt1{
+	color: red;
+	font-style: italic;
+}
+#txt2{
+	color: red;
+	font-style: italic;
+}
+#txt3{
+	color: red;
+	font-style: italic;
+}
+
+.footer{
+	width:100%;
+	height:auto;
+	background-color: #017A8F;
+	color:white;
+	margin-left: 0px;
+
+}
+.bottom{
+	width: 100%;
+	height: 50px;
+	background-color: #015d6d;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+}
+.accordbutton{
+	width:500px;
+	height:40px;
+	background-color: #e3e9ea;
+	color: black;
+
+}
+.divaccord{
+	width:500px;
+	height:auto;
+	background-color: #f7f7d7;
+
+}
+
+.navbar-nav > li{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size:1.2em;
+}
+
+.nav-item a:hover{
+	/*background-color: #f9ffff;*/
+	border-bottom: 2px solid #047792;
+	/*box-shadow: inset 0 0 10px #d8d8d8;*/
+}
+
+.activeclass{
+	/*background-color: #f9ffff;*/
+	border-bottom: 2px solid #047792;
+}
+
+
+
+body{
+	overflow-x: hidden;
+	/*background-color: #f7f7d7;*/
+}
+@font-face{
+	font-family: swecha;
+	src:url(stuff/fonts/LCALLIG.ttf);
+}
+
+.yellowbtn{
+	color: black;
+	background-color: #f4f142;
+
+}
+
+
+
+
+
+/* The container <li> - needed to position the dropdown content 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}*/
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#f9ffff;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: Black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: swecha;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {/*background-color:  #d8d8d8*/;color:black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* scroll top icon*/
+
+
+.linkcol{
+	color: white;
+	
+	text-decoration: none;
+}
+
+.footlink a:hover{
+	color: yellow;
+	text-decoration: none;
+
+}
+
+.modal-title{
+	color:#017A8F;
+
+}
+.modal-body{
+	color:black;
+}
+
+
+/*tabs for activities*/
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: #222;
+			display: inline-block;
+			padding: 20px 15px;
+			cursor: pointer;
+			box-shadow: inset 0 0 10px  #c5c9c9;
+		}
+
+		ul.tabs li.current{
+			background:#f4f142;
+			color: black;
+			box-shadow: inset 0 0 10px  #c5c9c9;
+		}
+
+		.tab-content{
+			display: none;
+			background: #ededed;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+
+/*tabs end*/
+
+
+.imgsocial:hover{
+	opacity: 0.8;
+}
+
+.imgsocial{
+	width:30px;
+	height: 30px;
+
+	opacity:1;
+}
+
+.tealbtn{
+	background-color: #017A8F;
+	color: white;
+}
+
+.tealbtn:hover{
+	background-color: #015d6d ;
+	
+}
+
+.aboutdiv{
+	height:600px;
+	overflow: hidden;
+	font-size: 0.8em;
+}
+
